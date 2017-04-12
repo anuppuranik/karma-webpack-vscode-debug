@@ -14,11 +14,11 @@ Project that uses karma, jasmine, webpack, typescript. And debugs perfectly in v
     yarn run test
 
 ## To debug tests
-Keep yarn run test running on a console
-Click on the debug button in karma page of chrome
-Then launch 'Attach Karma Chrome' debug profile in vscode
-Set breakpoints
-Refresh the debug page in chrome
+1. Keep yarn run test running on a console
+2. Click on the debug button in karma page of chrome
+3. Then launch 'Attach Karma Chrome' debug profile in vscode
+4. Set breakpoints
+5. Refresh the debug page in chrome
 
 ## Credits
 This has been built based on the excellent project: https://github.com/mlewand/karma-and-vscode-debugging
