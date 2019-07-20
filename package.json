@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My starter project that uses karma, jasmine, webpack, typescript and debugs perfectly in vscode",
   "author": "Anup Puranik",
-  "license": "Apache License 2.0",
+  "license": "Apache-2.0",
   "scripts": {
     "postinstall": "typings install --overwrite --save",
     "build": "webpack",
