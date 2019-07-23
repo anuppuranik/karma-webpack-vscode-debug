@@ -20,17 +20,18 @@ const config = {
   resolve: {
     extensions: ["*", ".ts", ".tsx", ".js", ".jsx", ".json"]
   },
-
-  plugins: [
-    new webpack.optimize.CommonsChunkPlugin({
-      name: "vendor",
-      // filename: "vendor.js"
-      // (Give the chunk a different name)
-      minChunks: Infinity,
-      // (with infinite minimum entries, this ensures that no other module
-      //  goes into the vendor chunk)
-    })
-  ]
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: "vendor",
+          chunks: "all"
+        }
+      }
+    }
+  },
+  plugins:[]
 };
 
 module.exports = config;

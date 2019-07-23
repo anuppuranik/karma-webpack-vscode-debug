@@ -6,8 +6,8 @@ const webpack = require('webpack');
 
 // Lets modify the webpackconfig to make it to play well with karma-webpack
 // 1. Commons chunk plugin doesn't work with karma-webpack, so removing it.
-const commonsChunkPluginIndex = webpackConfig.plugins.findIndex(plugin => plugin.chunkNames);
-webpackConfig.plugins.splice(commonsChunkPluginIndex, 1);
+// const commonsChunkPluginIndex = webpackConfig.plugins.findIndex(plugin => plugin.chunkNames);
+// webpackConfig.plugins.splice(commonsChunkPluginIndex, 1);
 // 2. Lets remove dev tools and add the source map plugin
 webpackConfig.devtool = false;
 webpackConfig.plugins.push (

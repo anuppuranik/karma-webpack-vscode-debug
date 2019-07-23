@@ -11,20 +11,21 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "css-loader": "^0.28.0",
-    "jasmine-core": "^2.5.2",
+    "css-loader": "^3.1.0",
+    "jasmine-core": "^3.4.0",
     "jquery": "^3.2.1",
-    "karma": "^1.6.0",
-    "karma-chrome-launcher": "^2.0.0",
-    "karma-jasmine": "^1.1.0",
+    "karma": "^4.2.0",
+    "karma-chrome-launcher": "^3.0.0",
+    "karma-jasmine": "^2.0.1",
     "karma-sourcemap-loader": "^0.3.7",
-    "karma-typescript": "^3.0.0",
-    "karma-webpack": "^2.0.3",
+    "karma-typescript": "^4.1.1",
+    "karma-webpack": "^4.0.2",
     "phantomjs-prebuilt": "^2.1.14",
     "source-map-loader": "^0.2.1",
-    "ts-loader": "^2.0.3",
-    "typescript": "^2.2.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
     "typings": "^2.1.0",
-    "webpack": "^2.3.3"
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
   }
 }
