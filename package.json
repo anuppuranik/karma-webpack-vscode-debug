@@ -13,7 +13,7 @@
   "devDependencies": {
     "css-loader": "^3.1.0",
     "jasmine-core": "^3.4.0",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "karma": "^4.2.0",
     "karma-chrome-launcher": "^3.0.0",
     "karma-jasmine": "^2.0.1",
